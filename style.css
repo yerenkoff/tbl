@@ -8,8 +8,6 @@ html {
 }
 
 body {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#093f7f11), to(#fff));
-  background-image: linear-gradient(to top, #093f7f11, #fff);
   background-attachment: fixed;
 }
 
@@ -506,6 +504,10 @@ header .menu li nav a {
   }
   .gallery .poster .posterInfo p {
     display: none;
+  }
+  .gallery .poster a {
+    -webkit-transform: none;
+            transform: none;
   }
   .players .player img {
     width: 100%;
